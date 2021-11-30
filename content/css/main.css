@@ -1,0 +1,166 @@
+@font-face {
+    src: url(/fonts/Aero\ Matics\ Stencil\ Bold.ttf);
+    font-family: aero;
+}
+
+
+/*Heading Setup*/
+
+body {
+    margin: 0px;
+    background-color: #E5E5E5;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+}
+
+.pagelinks {
+    text-align: right;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 40px;
+    color: #14213d;
+}
+
+.logo {
+    display: inline;
+}
+
+p.logo {
+    color: #14213d;
+    font-size: 50px;
+    font-family: aero;
+}
+
+
+/*Mission Statement Setup*/
+
+.mission_statement {
+    background-color: #FCA311;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quotes {
+    color: #14213d;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin: 0px 200px;
+}
+
+.quotes_statement {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    margin: 4px 200px;
+    color: #fff;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    width: 360px;
+}
+
+
+/*Mission Image Setup*/
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+
+/* Comment Section */
+
+section {
+    background-color: #FCA311;
+    height: 400px;
+    margin: -4px;
+    ;
+}
+
+
+/*Testimonium Black Setup*/
+
+.testimonium {
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-comment {
+    width: 400px;
+    margin: 0px;
+    padding: 100px 10px 0px 10px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    color: #fff;
+}
+
+
+/*Reviewers Names Black Setup*/
+
+.reviewer {
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewer-names {
+    width: 400px;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: right;
+    padding: 0px 10px 0px 10px;
+    color: #14213d;
+}
+
+
+/*Reviewers Location Black Setup*/
+
+.reviewer-location {
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewer-loc {
+    width: 400px;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: right;
+    padding: 0px 10px 0px 10px;
+    color: #14213d;
+}
+
+footer {
+    position: fixed;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    width: 100%;
+    bottom: 0;
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+}
