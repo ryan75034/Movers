@@ -1,22 +1,22 @@
-    .yellow-box-01 {
+    .yellow-flexbox-01 {
         background-color: rgba(252, 163, 17, .9);
         height: 600px;
         width: 500px;
-        margin: 600px 0px 0px 100px;
-        border: 0px 0px 0px 0px;
-        padding: 0px 0px 0px 0px;
         position: absolute;
+        left: 100px;
+        top: 850px;
+        z-index: -1;
+
     }
     
-    .yellow-box-02 {
-        background-color: rgba(252, 163, 17, .9);
+    .yellow-flexbox-02 {
+        background-color: rgba(252, 163, 17, 0.9);
         height: 600px;
         width: 500px;
-        margin: 0px 0px 0px 1300px;
-        border: 0px 0px 0px 0px;
-        padding: 0px 0px 0px 0px;
         position: absolute;
-    }
+        right: 100px;
+        top: 650px;
+    }   
     
     .aboutus-statement {
         height: 600px;
